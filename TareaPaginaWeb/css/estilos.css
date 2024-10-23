@@ -1,0 +1,49 @@
+body{
+    background: #fcfbfb;
+    color:#fcfbfb;
+    margin: 0;
+    
+
+}
+
+aside,header,nav,section#contenedor,section#contenido, footer{
+    border-radius: .5em;
+    margin: .3em auto;
+    padding: .3em;
+
+}
+
+aside,section#contenido{
+    display: inline-block;
+    background-color: #999;
+    width: 65%;
+    min-height: 200px;
+    vertical-align: top;
+}
+
+aside{
+    width: 30%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(00, 42, 71);
+    font-size: 1.2em;
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(00, 42, 71);
+    font-size: .6em;
+
+}
+
+
+ 
+
+.redes img{
+    
+    margin-right: 10px;
+    
+}
